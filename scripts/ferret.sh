@@ -1,0 +1,1 @@
+python main.py --model datajuicer/LLaMA-1B-dj-refine-150B --dataset instruct --lr 0.0001 --K 200 -m 0.05 --log --local_step 40 --slr_max 10 --anneal no --rounds 12 --device 1 --momentum 0.0 --n_accum 4 --equal_weight --seed 494
